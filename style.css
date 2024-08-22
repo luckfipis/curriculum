@@ -1,0 +1,59 @@
+body{
+    background-color: #8b904d;
+}
+
+h1, h2, h3{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+#cabecalho{
+    background-color: #796D04;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cabecalhonome{
+    width: 600px;
+    background-color: #8b904d;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cabecalhonome h1, h2{
+    margin: 0;
+}
+
+#contato{
+    list-style-type: none;
+}
+
+#contato i{
+    width: 30px;
+    color: #796D04
+}
+
+#container{
+    grid-template-columns: 30% auto;
+    display: grid;
+    grid-column-gap: 20px;
+}
+
+#barralatral, #conteudo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.card h3{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+}
+
+.card{
+    font-family: Montserrat;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
